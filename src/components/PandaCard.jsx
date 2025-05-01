@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style/panda.css'
 import { NavLink } from 'react-router-dom'
-import Egle from './Egle'
+
 function PandaCard({cardtext ,  cardtext2, cardtext3, cardtext4, card, nom, matncha, icon1, icon2, vd, vdlar, vdlar2, vdlar3, vdtext, card2, card3, card4, nom1, matn1, matn2, matn3, matn4 , matn5 , matn6,matn7 , matn8, matn9, matn10 , matn11, matn12, matn13 , nom2, nom3 ,qalam}) {
   return (
     <div className="container">
