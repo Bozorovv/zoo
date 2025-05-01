@@ -1,0 +1,325 @@
+/* Asosiy stil */
+.card_wrapper {
+    display: flex;
+    align-items: start;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.video_hero {
+    display: flex;
+    align-items: start;
+    gap: 646px;
+}
+
+.hero1 h4 {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 42px;
+}
+
+.hero1 p {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: var(--black);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.video_card {
+    margin-top: 8px;
+    margin-bottom: 60px;
+}
+
+.video_card .xa {
+    width: 1007px;
+    height: 597px;
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.card h6 {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: var(--black);
+    margin: 56px 0 8px;
+}
+
+.cardchalar {
+    width: 105px;
+    height: 131px;
+}
+
+.cardchalar h5 {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2d2d2d;
+}
+
+.cardchalar img {
+    display: block;
+    margin: 0 auto;
+}
+
+.cardchalar:active {
+    transform: scale(1.1);
+}
+
+.text {
+    display: flex;
+    align-content: start;
+    padding-top: 38px;
+    gap: 56px;
+}
+
+.nom h2 {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--black);
+    padding: 38px 0 15px;
+}
+
+.matn h2 {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--black);
+    padding: 38px 0 20px;
+}
+
+.matn1 {
+    padding: 20px 0 30px;
+}
+
+.matn1 h5 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black);
+    margin-bottom: 8px;
+}
+
+.matn1 p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 143%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--black);
+}
+
+.matn1 h6 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: var(--black);
+}
+
+.yigl {
+    width: 604px;
+    height: 348px;
+}
+
+.matnlar {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.matnlar p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: var(--black);
+}
+
+/* Responsivlik: Ekranlar 697px va kichikroq */
+@media (max-width: 697px) {
+    .video_hero {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .video_card .xa {
+        width: 100%;
+        height: auto;
+    }
+
+    .card_wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .icon {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .card2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .yigl {
+        width: 100%;
+        height: auto;
+    }
+
+    .text {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .nom h2,
+    .matn h2 {
+        font-size: 22px;
+        padding: 20px 0;
+    }
+
+    .matn1 h5 {
+        font-size: 14px;
+    }
+
+    .matn1 p {
+        font-size: 13px;
+    }
+
+    .matn1 h6 {
+        font-size: 13px;
+    }
+}
+
+/* Responsivlik: Ekranlar 480px va kichikroq */
+@media (max-width: 480px) {
+    .card_wrapper {
+        gap: 20px;
+    }
+
+    .hero1 h4 {
+        font-size: 20px;
+    }
+
+    .hero1 p {
+        font-size: 16px;
+    }
+
+    .cardchalar {
+        width: 90px;
+        height: 110px;
+    }
+
+    .cardchalar h5 {
+        font-size: 12px;
+    }
+
+    .card2 {
+        gap: 20px;
+    }
+
+    .nom h2 {
+        font-size: 20px;
+    }
+
+    .matn h2 {
+        font-size: 20px;
+    }
+
+    .matn1 h5 {
+        font-size: 14px;
+    }
+
+    .matn1 p {
+        font-size: 12px;
+    }
+
+    .matn1 h6 {
+        font-size: 12px;
+    }
+
+    .yigl {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Responsivlik: Ekranlar 350px va kichikroq */
+@media (max-width: 350px) {
+    .card_wrapper {
+        gap: 15px;
+    }
+
+    .hero1 h4 {
+        font-size: 18px;
+    }
+
+    .hero1 p {
+        font-size: 14px;
+    }
+
+    .cardchalar {
+        width: 80px;
+        height: 100px;
+    }
+
+    .cardchalar h5 {
+        font-size: 10px;
+    }
+
+    .card2 {
+        gap: 15px;
+    }
+
+    .nom h2 {
+        font-size: 18px;
+    }
+
+    .matn h2 {
+        font-size: 18px;
+    }
+
+    .matn1 h5 {
+        font-size: 12px;
+    }
+
+    .matn1 p {
+        font-size: 11px;
+    }
+
+    .matn1 h6 {
+        font-size: 11px;
+    }
+
+    .yigl {
+        width: 100%;
+        height: auto;
+    }
+
+    .text {
+        gap: 20px;
+    }
+}

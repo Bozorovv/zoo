@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.container {
+  max-width: 1262px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --black: #0d444d;
+  --bamboo-tree: #216e7a;
+  --white: #c5e1e5;
+  --yelllow-bttn: #fff5ba;
+  --bg: #2a8086;
+  --bttn-black: #0d444d;
+  --bttn-yellow: #ad954b;
+  --hero-text: #f3f7f8;
+  --footer-bg: #196469;
+  --bttn-lined: #19707d;
+
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Roboto Mono", sans-serif;
+  --third-family: "Rubik", sans-serif;
+  --font3: "Sahitya", sans-serif;
+
+}

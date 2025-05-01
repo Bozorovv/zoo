@@ -1,0 +1,139 @@
+.zoos_wrapper{
+    display: flex;
+    align-items: start;
+    gap: 5px;
+}
+.zoos_img{
+    width: 162px;
+}
+.header_wrapper2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.header_wrapper2 .tex h2{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--black);
+    padding-top: 30px;
+    margin-bottom: 22px;
+}
+.header_wrapper2 .tex p{
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 18px;
+text-transform: capitalize;
+color: var(--black);
+margin-bottom: 15px;
+}
+.zoos_img img{
+    padding: 44px 54px 0 30px;
+}
+.img1{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    padding-right: 45px;
+}
+.zoos img{
+    margin-bottom: 26px;
+}
+body{
+    background-color: aliceblue;
+}
+.card h5{
+    margin-bottom: 15px;
+    width: 115px;
+}
+.card4{
+    display: flex;
+   align-items: center;
+    gap: 10px;
+}
+.card4 img{
+    width: 311px;
+height: 204px;
+}
+.card h5{
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: var(--black);
+    margin-bottom: 8px;
+}
+
+
+.text_wrapper{
+    display: flex;
+    align-items: start;
+    gap: 56px;
+    margin-top: 150px;
+}
+
+.card4 img:nth-of-type(2){
+    width: 295px;
+height: 193px;
+
+}
+.zoos_vide{
+    width: 1324px;
+
+}
+.card4 img:nth-of-type(3){
+    width: 295px;
+height: 193px;
+}
+.text1 h4{
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 24px;
+text-transform: uppercase;
+color: var(--black);
+margin-bottom: 24px;
+}
+
+.div1 h6{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: var(--black);
+margin-bottom: 6px;
+}
+.div1 p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: var(--black);
+
+}
+
+.div1{
+    margin-bottom: 30px;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 30px;
+
+}
+.div2 img{
+    margin: 8px;
+}
+.zoos_img img:hover{
+    background-image: url(../image/Vector.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16px
+}
+
+.imgg img{
+    width: 100%;
+}

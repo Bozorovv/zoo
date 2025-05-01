@@ -1,0 +1,184 @@
+.header {
+    position: relative;
+    z-index: 101;
+    box-shadow: 0 1px 10px 0 rgba(18, 87, 91, 0.25);
+    background: #287480;
+    
+}
+
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+}
+
+.li {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+ul li a {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+
+
+.header {
+    position: relative;
+}
+
+.li  .active::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #d1e4d3;
+    position: absolute;
+    bottom: 40px;
+}
+
+
+
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+
+.modal {
+    background-color: #287480;
+    position: fixed;
+    top: 128px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    transition: 400ms;
+    transform: translateX(-20000px);
+
+}
+
+
+.openModal {
+    transform: translateX(0px);
+    transition: 400ms;
+}
+
+
+.modal_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40%;
+    position: relative;
+
+}
+.modal_wrapper h1 {
+    text-align: end;
+    font-size: 50px;
+    cursor: pointer;
+    
+
+  
+}
+
+.modal_wrapper ul li {
+    color: aliceblue;
+    display: block;
+    margin-bottom: 24px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+   
+    text-decoration: none;
+}
+
+
+
+
+
+@media(max-width:855px) {
+    .ul {
+
+        gap: 32px;
+    }
+}
+
+@media(max-width:795px) {
+    .ul {
+
+        gap: 12px;
+    }
+
+    
+    .li li a {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .header_logo {
+        display: flex;
+        align-items: center;
+        gap: 21px;
+    }
+}
+
+@media(max-width:725px) {
+    .li {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+    }
+}
+
+
+
+
+
+
+@media(max-width:640px) {
+    .header_wrapper .li {
+        display: none;
+    }
+
+    .header_logo {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+    .active::after {
+        content: "";
+        display: block;
+        width: 0px;
+        height: 0px;
+        background-color: #d1e4d3;
+        position: absolute;
+        bottom: 0px;
+    }
+}

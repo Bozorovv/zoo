@@ -1,0 +1,60 @@
+.erro__wrapper h1 {
+    font-family: var(--font3);
+font-weight: 400;
+font-size: 250px;
+text-transform: uppercase;
+color: var(--black);
+text-align: center;
+margin-top: 50px;
+}
+
+.erro__wrapper h2{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black);
+    text-align: center;
+}
+.erorimg {
+    max-width: 1550px;
+}
+.erorimg img {
+    width: 100%;
+}
+
+.erro__wrapper button{
+    border-radius: 100px;
+padding: 14px 78px;
+
+background: var(--bttn-lined);
+box-shadow: 0 2px 20px 0 rgba(185, 213, 217, 0.6);
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 18px;
+letter-spacing: -0.05em;
+text-transform: uppercase;
+color: var(--hero-text);
+display: block;
+margin: 36px auto 101px;
+border: none;
+
+
+}
+
+.erro img {
+    display: block;
+    margin: 0 auto;
+}
+
+@media(max-width:440px) {
+    .erro__wrapper h1{
+        font-weight: 300;
+font-size: 200px;
+    }
+}
+@media(max-width:350px) {
+    .erro__wrapper h1{
+        font-weight: 250;
+font-size: 150px;
+    }
+}

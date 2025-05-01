@@ -1,0 +1,233 @@
+.contact {
+    background-image: url("https://img.freepik.com/free-photo/vintage-pink-telephone-composition_23-2148913955.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact_form {
+    display: flex;
+    margin: 30px auto 0px;
+    align-items: center;
+    justify-content: center;
+    max-width: 448px;
+    width: 100%;
+
+}
+
+.contact_form .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form .input1 {
+
+    border-radius: 10px;
+    width: 394px;
+    height: 54px;
+    box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    padding: 0 0 0 10px;
+}
+
+.form .input2 {
+
+    border-radius: 10px;
+    width: 394px;
+    height: 54px;
+    box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    padding: 0 0 0 10px;
+}
+
+.form .input3 {
+    margin-top: 8px;
+    width: 394px;
+    height: 228px;
+    border-radius: 10px;
+    fill: #fff;
+    box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+    border: none;
+    margin-bottom: 32px;
+    padding: 0 0 0 10px;
+}
+
+.form .btn1 {
+    width: 448px;
+    height: 54px;
+    border-radius: 100px;
+    box-shadow: 0 2px 20px 0 rgba(185, 213, 217, 0.6);
+    background: #2a8088;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    margin-bottom: 50px;
+
+
+}
+
+.contact__wrapper h2 {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 300px;
+
+
+}
+
+@media (max-width: 515px) {
+    .form .input1 {
+
+        border-radius: 10px;
+        width: 304px;
+        height: 54px;
+        box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+        background: #fff;
+        border: none;
+        margin-bottom: 20px;
+        margin-top: 8px;
+        padding: 0 0 0 10px;
+    }
+
+    .form .input2 {
+
+        border-radius: 10px;
+        width: 304px;
+        height: 54px;
+        box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+        background: #fff;
+        border: none;
+        margin-bottom: 20px;
+        margin-top: 8px;
+        padding: 0 0 0 10px;
+    }
+
+    .form .input3 {
+        margin-top: 8px;
+        width: 304px;
+        height: 228px;
+        border-radius: 10px;
+        fill: #fff;
+        box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+        border: none;
+        margin-bottom: 32px;
+        padding: 0 0 0 10px;
+    }
+
+    .form .btn1 {
+        width: 300px;
+        height: 54px;
+        border-radius: 100px;
+        box-shadow: 0 2px 20px 0 rgba(185, 213, 217, 0.6);
+        background: #2a8088;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: white;
+        border: none;
+        margin-bottom: 50px;
+
+
+    }
+
+    .contact__wrapper h2 {
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 17px;
+        text-transform: uppercase;
+        color: black;
+        text-align: center;
+        padding-top: 50px;
+        padding-right: 250px;
+        margin-bottom: 20px;
+
+    }
+}
+
+@media (max-width: 405px){
+    .form .input1 {
+
+        border-radius: 10px;
+        width: 254px;
+        height: 54px;
+        box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+        background: #fff;
+        border: none;
+        margin-bottom: 20px;
+        margin-top: 8px;
+        padding: 0 0 0 10px;
+    }
+
+    .form .input2 {
+
+        border-radius: 10px;
+        width: 254px;
+        height: 54px;
+        box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+        background: #fff;
+        border: none;
+        margin-bottom: 20px;
+        margin-top: 8px;
+        padding: 0 0 0 10px;
+    }
+
+    .form .input3 {
+        margin-top: 8px;
+        width: 254px;
+        height: 228px;
+        border-radius: 10px;
+        fill: #fff;
+        box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+        border: none;
+        margin-bottom: 32px;
+        padding: 0 0 0 10px;
+    }
+
+    .form .btn1 {
+        width: 250px;
+        height: 54px;
+        border-radius: 100px;
+        box-shadow: 0 2px 20px 0 rgba(185, 213, 217, 0.6);
+        background: #2a8088;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: white;
+        border: none;
+        margin-bottom: 50px;
+
+
+    }
+
+    .contact__wrapper h2 {
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 17px;
+        text-transform: uppercase;
+        color: black;
+        text-align: center;
+        padding-top: 50px;
+        padding-right: 200px;
+        margin-bottom: 20px;
+
+    }
+}

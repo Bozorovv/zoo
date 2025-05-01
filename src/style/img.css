@@ -1,0 +1,11 @@
+.img{
+    background-image: url("../image/Illustration1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 991px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+

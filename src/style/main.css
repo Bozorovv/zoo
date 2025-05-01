@@ -1,0 +1,99 @@
+.main__wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 38px;
+    position: relative;
+    margin-bottom: 75px;
+}
+.main .mainlogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 62px;
+}
+.mainlogo h2 {
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 24px;
+text-transform: uppercase;
+color: var(--black);
+}
+.mainlogo button {
+    border: 1.50px solid var(--bttn-lined);
+    border-radius: 100px;
+    width: 303px;
+    height: 40px;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: var(--bttn-lined);
+background-color: transparent;
+}
+
+.main__card {
+    width: 351px;
+    height: 285px;
+    box-shadow: 0 2px 29px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    border-radius: 10px;
+}
+
+.main__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgb(183, 178, 178);
+
+}
+
+.img__logoo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.main__card .iimg {
+    padding-bottom: 25px;
+    width: 162px;
+    height: 157px;
+}
+
+.main__card .main__text h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    color: #2d2d2d;
+   margin-bottom: 6px;
+}
+
+.main__card .main__text h6 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    color: #909090;
+    padding-bottom: 17px;
+}
+
+.main__logoo {
+    display: flex;
+    right: 0;
+    flex-direction: column;
+    position: absolute;
+    justify-content: end;
+    margin-top: -550px;
+}
+
+.main__text {
+    padding-top: 16px;
+}
+
+@media(max-width:1250px) {
+    .main__logoo{
+        display: none;
+    }
+}

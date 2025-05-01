@@ -1,0 +1,85 @@
+.bbttn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.bbttn button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.zooom{
+    transform: scale(1.5);
+    transition: 300ms;
+}
+
+
+.map__wrapper{
+    overflow: scroll;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.map__wrapper .burgutt {
+    position: absolute;
+    padding-top: 50px;
+    z-index: 99;
+}
+.map__wrapper .gaarilla {
+    position: absolute;
+    padding-top: 100px;
+    z-index: 99;
+}
+.map__wrapper .tmmsoh {
+    position: absolute;
+    padding-top: 150px;
+    z-index: 99;
+}
+.map__wrapper .kunfupanda {
+    position: absolute;
+    padding-top: 340px; 
+    right: 340px;
+    display: block;
+    z-index: 99;
+    
+}
+
+.map__wrapper img {
+    transition: 300ms;
+    cursor:col-resize;
+   
+}
+.hh2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.map {
+    background-color: #287480;
+   
+    padding-bottom: 10px;
+}
+
+.map h2 {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+text-transform: uppercase;
+color: var(--white);
+margin-top: 16px;
+margin-bottom: 40px;
+}

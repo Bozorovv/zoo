@@ -1,0 +1,44 @@
+.error {
+    margin-top: 100px;
+}
+
+.error_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 101px;
+}
+
+.error img {
+    width: 1920px;
+    height: 466px;
+}
+
+.error h1 {
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 250px;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.error button {
+    border-radius: 100px;
+    width: 247px;
+    height: 52px;
+    background: var(--bttn-lined);
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    border: none;
+    margin: 0 auto;
+    display: block;
+}
+
+.error button a {
+    color: var(--hero-text);
+
+}
